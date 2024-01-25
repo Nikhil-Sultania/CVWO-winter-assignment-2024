@@ -1,1 +1,13 @@
+This Project was created for CVWO Winter Assignment 2024 by Nikhil Sultania.
+use go run main.go to run the app;
+it executes very basic CRUD operations and creating accounts,threads
+
+to verify if go app runs use curl like so
+curl http://localhost:8080/createPost \ 
+--include \
+--header "Content-Type: application/json" \
+--request "POST" \
+--data '{"Owner":"Owner-Name","Title":"Post-Title","Description" : "Description"}'
+
+
 
