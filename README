@@ -9,5 +9,5 @@ curl http://localhost:8080/createPost \
 --request "POST" \
 --data '{"Owner":"Owner-Name","Title":"Post-Title","Description" : "Description"}'
 
-
+For SQL I used a mySQL server running locally with a database called datas with a table called threads, which I could not upload or deploy due to time constraints
 
